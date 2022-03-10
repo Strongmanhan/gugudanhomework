@@ -1,0 +1,13 @@
+
+public class Gugudanmain {
+public static void main(String[] args) {
+		
+		for(int i=2; i<10; i++) {
+			System.out.println(i + "´Ü");
+			int [] result = Gugudan.calculate(i);
+			Gugudan.print(result);
+			
+		}
+
+}
+}
